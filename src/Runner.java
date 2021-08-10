@@ -1,5 +1,25 @@
 import java.util.*;
 
+//Первая строка входа содержит число операций 1≤n≤10^5. Каждая из последующих n строк задают операцию одного из следующих двух типов:
+
+//Insert x, где 0≤x≤10^9 — целое число;
+//ExtractMax.
+
+//Первая операция добавляет число xx в очередь с приоритетами, вторая — извлекает максимальное число и выводит его
+
+//Test Input:
+//6
+//Insert 200
+//Insert 10
+//ExtractMax
+//Insert 5
+//Insert 500
+//ExtractMax
+
+//Output: 
+//200
+//500
+
 class Runner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
